@@ -1,0 +1,25 @@
+1789410504
+04.announcements
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:13:"announcements";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:1:{s:5:"title";s:13:"Announcements";}s:11:"frontmatter";s:20:"title: Announcements";s:8:"markdown";s:504:"# Announcements
+
+Stay updated with the latest information from the organization.
+
+## September 2026
+
+### Welcome to the New School Year
+
+Welcome students! We are excited to begin another school year with new activities and programs.
+
+### Organization Meeting
+
+**Date:** September 20, 2026
+
+**Time:** 3:00 PM
+
+**Location:** School Activity Room
+
+All interested students are welcome to attend.
+
+### Important Reminder
+
+Students are encouraged to regularly check this page for new announcements and updates.";}s:7:"storage";a:6:{s:3:"key";s:13:"announcements";s:11:"storage_key";s:16:"04.announcements";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1789409659;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1789409659;}}s:8:"checksum";s:32:"9e9e7abd31fa5ee69fc76a0bd17f8e30";}}

@@ -1,0 +1,28 @@
+1789410504
+03.about-us
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:8:"about-us";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:8:"About Us";s:9:"published";b:1;s:5:"login";a:1:{s:26:"visibility_requires_access";b:1;}}s:11:"frontmatter";s:77:"title: 'About Us'
+published: true
+login:
+    visibility_requires_access: true";s:8:"markdown";s:515:"# About Us
+
+## Who We Are
+
+We are a school organization that provides activities, announcements, programs, and important information for students.
+
+## Our Purpose
+
+Our organization aims to keep students informed and involved in school activities.
+
+## What We Do
+
+We organize and share:
+
+- School activities
+- Student programs
+- Announcements
+- Events
+- Important student information
+
+## Our Goal
+
+Our goal is to provide students with an easy and organized way to access important information about the organization.";}s:7:"storage";a:6:{s:3:"key";s:8:"about-us";s:11:"storage_key";s:11:"03.about-us";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1789409326;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1789409326;}}s:8:"checksum";s:32:"0f525975bdce86a7d7bc8594428f2485";}}

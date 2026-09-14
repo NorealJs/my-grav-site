@@ -1,0 +1,88 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
+    'filename' => 'C:/laragon/www/LARAGON_WORKSPACE/grav/user/data/flex/indexes/pages.json',
+    'modified' => 1789409904,
+    'size' => 1376,
+    'data' => [
+        'version' => '1.5',
+        'timestamp' => 1789409904,
+        'count' => 6,
+        'index' => [
+            '' => [
+                'key' => '',
+                'storage_key' => '',
+                'template' => NULL,
+                'storage_timestamp' => 1789409809,
+                'children' => [
+                    '01.home' => 1789409026,
+                    '03.about-us' => 1789409326,
+                    '04.announcements' => 1789409659,
+                    '05.events-and-activities' => 1789409752,
+                    '06.contact-us' => 1789409822
+                ],
+                'checksum' => '6f3c9f7cd2582bf1817edb705c27bf50'
+            ],
+            '01.home' => [
+                'key' => 'home',
+                'storage_key' => '01.home',
+                'template' => 'default',
+                'storage_timestamp' => 1789409026,
+                'markdown' => [
+                    '' => [
+                        'default' => 1789409026
+                    ]
+                ],
+                'checksum' => 'c4bb038afb821a6a8ae95463167088e0'
+            ],
+            '03.about-us' => [
+                'key' => 'about-us',
+                'storage_key' => '03.about-us',
+                'template' => 'default',
+                'storage_timestamp' => 1789409326,
+                'markdown' => [
+                    '' => [
+                        'default' => 1789409326
+                    ]
+                ],
+                'checksum' => '0f525975bdce86a7d7bc8594428f2485'
+            ],
+            '04.announcements' => [
+                'key' => 'announcements',
+                'storage_key' => '04.announcements',
+                'template' => 'default',
+                'storage_timestamp' => 1789409659,
+                'markdown' => [
+                    '' => [
+                        'default' => 1789409659
+                    ]
+                ],
+                'checksum' => '9e9e7abd31fa5ee69fc76a0bd17f8e30'
+            ],
+            '05.events-and-activities' => [
+                'key' => 'events-and-activities',
+                'storage_key' => '05.events-and-activities',
+                'template' => 'default',
+                'storage_timestamp' => 1789409752,
+                'markdown' => [
+                    '' => [
+                        'default' => 1789409752
+                    ]
+                ],
+                'checksum' => '3ac5c174a9057d8654435691975a55dd'
+            ],
+            '06.contact-us' => [
+                'key' => 'contact-us',
+                'storage_key' => '06.contact-us',
+                'template' => 'default',
+                'storage_timestamp' => 1789409822,
+                'markdown' => [
+                    '' => [
+                        'default' => 1789409822
+                    ]
+                ],
+                'checksum' => '4aab29ef389b7d042f0e84468cbbef4b'
+            ]
+        ]
+    ]
+];
