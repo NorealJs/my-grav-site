@@ -33,7 +33,7 @@ RUN a2enconf grav \
     && chown -R www-data:www-data cache logs \
     && chmod -R ug+rwX cache logs \
     && ln -s /dev/stderr logs/grav.log \
-    && printf 'log_errors=On\nerror_log=/proc/self/fd/2\n' > /usr/local/etc/php/conf.d/grav-logging.ini \
+    && printf 'log_errors=On\nerror_log=/proc/self/fd/2\nauto_prepend_file=/var/www/html/docker/php-diagnostics.php\n' > /usr/local/etc/php/conf.d/grav-logging.ini \
     && chmod +x /usr/local/bin/grav-entrypoint
 
 ENV PORT=10000 \
