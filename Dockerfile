@@ -32,6 +32,8 @@ RUN a2enconf grav \
     && mkdir -p cache logs \
     && chown -R www-data:www-data cache logs \
     && chmod -R ug+rwX cache logs \
+    && ln -s /dev/stderr logs/grav.log \
+    && printf 'log_errors=On\nerror_log=/proc/self/fd/2\n' > /usr/local/etc/php/conf.d/grav-logging.ini \
     && chmod +x /usr/local/bin/grav-entrypoint
 
 ENV PORT=10000 \

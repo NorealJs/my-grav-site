@@ -30,3 +30,11 @@ docker run --rm -p 10000:10000 tech-innovators-society
 ```
 
 Open <http://localhost:10000/>.
+
+## Troubleshoot a failed health check
+
+If Render reports HTTP 500 responses, open the service's **Logs** and inspect
+the runtime output immediately before the failed requests. The container sends
+Grav's application log and PHP errors to that output, so a Render shell is not
+needed. Keep Grav's public error display disabled; exception details belong in
+the logs, not in responses served to visitors.
