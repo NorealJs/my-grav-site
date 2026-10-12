@@ -10,7 +10,7 @@ design changes in GitHub and push them to `main` to trigger a new deployment.
 
 1. Push this repository to GitHub.
 2. Sign in to [Render](https://render.com/) and choose **New → Blueprint**.
-3. Connect `alvinjamescatapang/my-grav-site` and select the `main` branch.
+3. Connect `NorealJs/my-grav-site` and select the `main` branch.
 4. Review the `tech-innovators-society` web service and apply the Blueprint.
 5. Wait for the Docker build and health check. Render will show the public
    `onrender.com` URL when deployment is ready.
