@@ -1442,6 +1442,7 @@ h2::before {
 
 #body-wrapper {
   background:
+    radial-gradient(circle, rgba(104, 65, 217, 0.1) 1px, transparent 1.5px) 0 0 / 34px 34px,
     radial-gradient(ellipse at 8% 5%, rgba(139, 119, 220, 0.09), transparent 34rem),
     radial-gradient(ellipse at 94% 32%, rgba(114, 168, 219, 0.09), transparent 38rem),
     linear-gradient(180deg, #f8f9fd 0%, #f1f4fb 100%);
@@ -1449,6 +1450,7 @@ h2::before {
 
 .home-page .home-hero {
   background:
+    radial-gradient(circle, rgba(104, 65, 217, 0.08) 1px, transparent 1.5px) 0 0 / 28px 28px,
     radial-gradient(ellipse at 92% 8%, rgba(140, 112, 255, 0.34), transparent 36%),
     radial-gradient(ellipse at 4% 100%, rgba(91, 63, 180, 0.25), transparent 40%),
     linear-gradient(135deg, #f3f0ff 0%, #eeebfc 58%, #f7f8ff 100%);
@@ -1456,6 +1458,7 @@ h2::before {
 
 .about-page .about-hero {
   background:
+    radial-gradient(circle, rgba(104, 65, 217, 0.07) 1px, transparent 1.5px) 0 0 / 28px 28px,
     radial-gradient(ellipse at 90% 5%, rgba(141, 119, 225, 0.3), transparent 38%),
     radial-gradient(ellipse at 5% 100%, rgba(106, 145, 211, 0.16), transparent 42%),
     linear-gradient(135deg, #f3f0ff 0%, #eeebfc 58%, #f7f8ff 100%);
@@ -1463,6 +1466,7 @@ h2::before {
 
 .info-hero {
   background:
+    radial-gradient(circle, rgba(104, 65, 217, 0.07) 1px, transparent 1.5px) 0 0 / 28px 28px,
     radial-gradient(ellipse at 92% 4%, rgba(141, 119, 225, 0.28), transparent 38%),
     radial-gradient(ellipse at 4% 100%, rgba(106, 145, 211, 0.16), transparent 42%),
     linear-gradient(135deg, #f3f0ff 0%, #eeebfc 58%, #f7f8ff 100%);
