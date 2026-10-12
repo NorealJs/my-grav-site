@@ -55,6 +55,16 @@ class Errors
         };
 
         set_exception_handler(static function ($exception) use ($factory) {
+            if (getenv('GRAV_DIAGNOSTICS') === '1') {
+                error_log(sprintf(
+                    '[grav-diagnostic] Uncaught %s: %s in %s:%d',
+                    $exception::class,
+                    $exception->getMessage(),
+                    $exception->getFile(),
+                    $exception->getLine()
+                ));
+            }
+
             $factory()->handleException($exception);
         });
 
@@ -62,6 +72,10 @@ class Errors
             if (!($level & error_reporting())) {
                 // Mirrors Whoops\Run::handleError(): leave silenced errors to PHP.
                 return false;
+            }
+
+            if (getenv('GRAV_DIAGNOSTICS') === '1') {
+                error_log(sprintf('[grav-diagnostic] PHP error %d: %s in %s:%d', $level, $message, $file, $line));
             }
 
             return $factory()->handleError($level, $message, $file, $line);
@@ -76,6 +90,16 @@ class Errors
             // Same fatal set Whoops handles at shutdown (Misc::isLevelFatal), minus the
             // core warnings/errors Grav's SystemFacade has always ignored there.
             if ($error['type'] & (E_ERROR | E_PARSE | E_COMPILE_ERROR | E_COMPILE_WARNING)) {
+                if (getenv('GRAV_DIAGNOSTICS') === '1') {
+                    error_log(sprintf(
+                        '[grav-diagnostic] PHP fatal %d: %s in %s:%d',
+                        $error['type'],
+                        $error['message'],
+                        $error['file'],
+                        $error['line']
+                    ));
+                }
+
                 $whoops = $factory();
                 // An exception thrown in a shutdown handler will not propagate to the
                 // exception handler, so render it directly like Whoops::handleShutdown does.

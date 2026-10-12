@@ -37,6 +37,7 @@ RUN a2enconf grav \
     && chmod +x /usr/local/bin/grav-entrypoint
 
 ENV PORT=10000 \
+    GRAV_DIAGNOSTICS=1 \
     GRAV_CONFIG=true \
     GRAV_CONFIG__system__errors__display=false \
     GRAV_CONFIG__system__debugger__enabled=false \
