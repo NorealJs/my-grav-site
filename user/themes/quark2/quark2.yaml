@@ -5,8 +5,8 @@ header-transparent: false
 header-dark: false
 header-light: false
 sticky-footer: true
-theme-mode: auto
-accent-color: '#8428DF'
+theme-mode: light
+accent-color: '#6841D9'
 blog-page: '/blog'
 fontawesome:
   enabled: true

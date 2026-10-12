@@ -1,0 +1,14 @@
+.git
+.env*
+backup/
+cache/
+logs/
+vendor/
+
+user/accounts/
+user/data/
+user/config/flex/
+user/config/security-private.php
+user/config/plugins/*-private.php
+user/config/plugins/api.yaml
+user/plugins/api/
