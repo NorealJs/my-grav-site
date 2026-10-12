@@ -33,15 +33,15 @@ RUN a2enconf grav \
     && chown -R www-data:www-data cache logs tmp backup images assets user/accounts user/data \
     && chmod -R ug+rwX cache logs tmp backup images assets user/accounts user/data \
     && ln -s /dev/stderr logs/grav.log \
-    && printf 'log_errors=On\nerror_log=/proc/self/fd/2\nauto_prepend_file=/var/www/html/docker/php-diagnostics.php\n' > /usr/local/etc/php/conf.d/grav-logging.ini \
+    && printf 'log_errors=On\nerror_log=/proc/self/fd/2\n' > /usr/local/etc/php/conf.d/grav-logging.ini \
     && chmod +x /usr/local/bin/grav-entrypoint
 
 ENV PORT=10000 \
-    GRAV_DIAGNOSTICS=1 \
     GRAV_CONFIG=true \
     GRAV_CONFIG__system__errors__display=false \
     GRAV_CONFIG__system__debugger__enabled=false \
     GRAV_CONFIG__plugins__admin__enabled=false \
+    GRAV_CONFIG__plugins__admin2__enabled=false \
     GRAV_CONFIG__plugins__api__enabled=false \
     GRAV_CONFIG__plugins__login__enabled=false \
     GRAV_CONFIG__site__title="Tech Innovators Society" \
