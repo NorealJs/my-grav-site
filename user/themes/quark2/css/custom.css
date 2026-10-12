@@ -839,9 +839,9 @@ html {
 
 :root,
 :root[data-theme="light"] {
-  --q2-bg: #ebeaf3;
+  --q2-bg: #f4f5fb;
   --q2-bg-elev: #ffffff;
-  --q2-bg-muted: #e3e1ed;
+  --q2-bg-muted: #ebeef7;
   --q2-bg-inverse: #201943;
 
   --q2-text: #333247;
@@ -1436,4 +1436,62 @@ h2::before {
     :is(.home-card, .home-pillar, .home-journey-card, .about-purpose-card, .about-value-card, .about-start-card, .notice-guidance-card, .contact-card, .event-card, .activity-list li):hover {
     transform: none;
   }
+}
+
+/* ---------- Soft, layered backgrounds ---------- */
+
+#body-wrapper {
+  background:
+    radial-gradient(ellipse at 8% 5%, rgba(139, 119, 220, 0.09), transparent 34rem),
+    radial-gradient(ellipse at 94% 32%, rgba(114, 168, 219, 0.09), transparent 38rem),
+    linear-gradient(180deg, #f8f9fd 0%, #f1f4fb 100%);
+}
+
+.home-page .home-hero {
+  background:
+    radial-gradient(ellipse at 92% 8%, rgba(140, 112, 255, 0.34), transparent 36%),
+    radial-gradient(ellipse at 4% 100%, rgba(91, 63, 180, 0.25), transparent 40%),
+    linear-gradient(135deg, #f3f0ff 0%, #eeebfc 58%, #f7f8ff 100%);
+}
+
+.about-page .about-hero {
+  background:
+    radial-gradient(ellipse at 90% 5%, rgba(141, 119, 225, 0.3), transparent 38%),
+    radial-gradient(ellipse at 5% 100%, rgba(106, 145, 211, 0.16), transparent 42%),
+    linear-gradient(135deg, #f3f0ff 0%, #eeebfc 58%, #f7f8ff 100%);
+}
+
+.info-hero {
+  background:
+    radial-gradient(ellipse at 92% 4%, rgba(141, 119, 225, 0.28), transparent 38%),
+    radial-gradient(ellipse at 4% 100%, rgba(106, 145, 211, 0.16), transparent 42%),
+    linear-gradient(135deg, #f3f0ff 0%, #eeebfc 58%, #f7f8ff 100%);
+}
+
+.home-page .home-main > .home-section:nth-of-type(even),
+.about-page .about-main > .about-section:nth-of-type(even),
+:is(.announcements-page, .events-page, .contact-page)
+  .info-main > .info-section:nth-of-type(even) {
+  padding: clamp(1.15rem, 3vw, 1.75rem);
+  border: 1px solid rgba(104, 65, 217, 0.09);
+  border-radius: var(--q2-radius-lg);
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba(139, 119, 220, 0.07), transparent 55%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(239, 242, 251, 0.9));
+}
+
+#footer {
+  border-top: 0;
+  background:
+    radial-gradient(ellipse at 12% 0%, rgba(164, 145, 238, 0.2), transparent 36rem),
+    linear-gradient(115deg, #251d4c 0%, #332563 58%, #292451 100%);
+  color: #e2def2;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+#footer span {
+  color: rgba(226, 222, 242, 0.55);
 }
