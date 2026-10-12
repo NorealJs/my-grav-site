@@ -6,7 +6,7 @@ body_classes: 'events-page'
 <header class="info-hero" aria-labelledby="events-title">
   <p class="info-kicker">Learn by doing</p>
   <h1 id="events-title">Events &amp; Activities</h1>
-  <p class="info-hero-copy">From meetups and student programs to community activities, find out what the society has planned and how to take part.</p>
+  <p class="info-hero-copy">Explore the society’s activity schedule, review earlier published dates, and check announcements for confirmed updates before making plans.</p>
 </header>
 
 <div class="info-main">
@@ -75,6 +75,15 @@ body_classes: 'events-page'
       <li>Community Outreach Activity</li>
       <li>Student Leadership Seminar</li>
     </ul>
+  </section>
+
+  <section class="info-section event-planning-note" aria-labelledby="event-planning-title">
+    <div class="info-section-heading">
+      <p class="info-eyebrow">Before you go</p>
+      <h2 id="event-planning-title">Check the details close to the date.</h2>
+      <p>Schedules can change. Use the latest confirmed information rather than relying on an older listing.</p>
+    </div>
+    <a class="info-text-link" href="announcements">Check the latest announcements <span aria-hidden="true">→</span></a>
   </section>
 </div>
 

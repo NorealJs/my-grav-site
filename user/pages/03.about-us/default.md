@@ -71,6 +71,31 @@ body_classes: 'about-page'
     </div>
   </section>
 
+  <section class="about-section" aria-labelledby="getting-started-title">
+    <div class="about-section-heading">
+      <p class="about-eyebrow">Getting started</p>
+      <h2 id="getting-started-title">There’s more than one way to take part.</h2>
+      <p>Members bring different interests and experience. Start with what feels useful to you.</p>
+    </div>
+    <div class="about-start-grid">
+      <article class="about-start-card">
+        <span class="about-card-number" aria-hidden="true">01</span>
+        <h3>Learn alongside others</h3>
+        <p>Ask questions, exchange ideas, and build confidence at your own pace.</p>
+      </article>
+      <article class="about-start-card">
+        <span class="about-card-number" aria-hidden="true">02</span>
+        <h3>Try a hands-on activity</h3>
+        <p>Use workshops and shared projects to turn new knowledge into practice.</p>
+      </article>
+      <article class="about-start-card">
+        <span class="about-card-number" aria-hidden="true">03</span>
+        <h3>Share what you discover</h3>
+        <p>Contribute your perspective and help make the community welcoming to others.</p>
+      </article>
+    </div>
+  </section>
+
   <section class="about-section" aria-labelledby="officers-title">
     <div class="about-section-heading">
       <p class="about-eyebrow">Our people</p>

@@ -12,18 +12,18 @@ body_classes: 'home-page'
       <a class="home-button home-button-primary" href="announcements">Read announcements <span aria-hidden="true">→</span></a>
       <a class="home-button home-button-secondary" href="about-us">Discover our society</a>
     </div>
-    <dl class="home-stats" aria-label="Society at a glance">
+    <dl class="home-stats" aria-label="What the society is about">
       <div class="home-stat">
-        <dt>85</dt>
-        <dd>active members</dd>
+        <dt>Explore</dt>
+        <dd>follow your curiosity</dd>
       </div>
       <div class="home-stat">
-        <dt>12</dt>
-        <dd>events each year</dd>
+        <dt>Build</dt>
+        <dd>learn through practice</dd>
       </div>
       <div class="home-stat">
-        <dt>2019</dt>
-        <dd>founded</dd>
+        <dt>Share</dt>
+        <dd>grow as a community</dd>
       </div>
     </dl>
   </div>
@@ -97,6 +97,34 @@ body_classes: 'home-page'
     <p><a class="home-card-link" href="about-us">Meet all our officers <span aria-hidden="true">→</span></a></p>
   </section>
 </div>
+
+<section class="home-journey" aria-labelledby="home-journey-title">
+  <div class="home-journey-heading">
+    <p class="home-eyebrow">A simple place to begin</p>
+    <h2 id="home-journey-title">Your next step starts here.</h2>
+    <p>Stay informed, find an activity that interests you, and reach out when you’re ready to take part.</p>
+  </div>
+  <div class="home-journey-grid">
+    <article class="home-journey-card">
+      <span class="home-journey-number" aria-hidden="true">01</span>
+      <h3>Get the latest</h3>
+      <p>Start with current notices so you know what’s confirmed and what has changed.</p>
+      <a class="home-card-link" href="announcements">Read announcements <span aria-hidden="true">→</span></a>
+    </article>
+    <article class="home-journey-card">
+      <span class="home-journey-number" aria-hidden="true">02</span>
+      <h3>Find your interest</h3>
+      <p>Browse activities and check dates and locations before making plans.</p>
+      <a class="home-card-link" href="events-and-activities">Explore activities <span aria-hidden="true">→</span></a>
+    </article>
+    <article class="home-journey-card">
+      <span class="home-journey-number" aria-hidden="true">03</span>
+      <h3>Start a conversation</h3>
+      <p>See the ways to connect and learn what information is currently available.</p>
+      <a class="home-card-link" href="contact-us">Visit contact us <span aria-hidden="true">→</span></a>
+    </article>
+  </div>
+</section>
 
 <section class="home-cta" aria-labelledby="home-cta-title">
   <div>

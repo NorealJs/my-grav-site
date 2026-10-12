@@ -6,7 +6,7 @@ body_classes: 'contact-page'
 <header class="info-hero" aria-labelledby="contact-title">
   <p class="info-kicker">We’d love to hear from you</p>
   <h1 id="contact-title">Contact the society</h1>
-  <p class="info-hero-copy">Have a question, an idea, or want to learn more about joining? We’re working on publishing verified contact details—meanwhile, here’s where to find the latest information.</p>
+  <p class="info-hero-copy">Have a question or an idea? This page points you to the latest published information while the society’s official contact channels are being confirmed.</p>
 </header>
 
 <div class="info-main">
@@ -14,7 +14,7 @@ body_classes: 'contact-page'
     <div class="info-section-heading">
       <p class="info-eyebrow">How to connect</p>
       <h2 id="contact-options-title">Start with the latest information.</h2>
-      <p>We’ll add direct contact details here once the organization’s official channels are confirmed.</p>
+      <p>We’ll publish direct contact details here when the organization’s official channels have been verified.</p>
     </div>
     <div class="contact-grid">
       <article class="contact-card">
@@ -39,7 +39,7 @@ body_classes: 'contact-page'
   </section>
 
   <aside class="contact-note">
-    <h2>Contact information is being confirmed.</h2>
-    <p>We haven’t published an official email address, social account, school name, or office hours yet. We’ve left those details off this page rather than show information that may be out of date or incorrect.</p>
+    <h2>We’re keeping contact details accurate.</h2>
+    <p>No official email, social account, school name, or office hours are listed yet. We’ve left them off rather than publish details that may be out of date or incorrect. In the meantime, announcements and the events schedule are the best places to check for confirmed updates.</p>
   </aside>
 </div>
